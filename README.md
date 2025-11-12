@@ -10,7 +10,7 @@
 ---
 
 ## 🧠 Overview
-This project combines **Evolutionary Algorithms** and **Adversarial Machine Learning** to analyze how **Deep Convolutional GANs (DCGANs)** behave when subjected to attacks like **FGSM**, **PGD**, and **JSMA** — individually and in sequence.
+This research combines **Evolutionary Algorithms** and **Adversarial Machine Learning** to analyze how **Deep Convolutional GANs (DCGANs)** behave when subjected to attacks like **FGSM**, **PGD**, and **JSMA** — individually and in sequence.
 
 We use an **evolutionary optimization loop** to:
 - Evolve attack combinations over generations.
