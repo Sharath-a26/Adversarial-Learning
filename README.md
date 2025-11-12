@@ -22,35 +22,10 @@ We use an **evolutionary optimization loop** to:
 ## 🌌 Key Highlights
 
 - ⚔️ **Multi-Attack Integration** — FGSM, PGD, JSMA, and hybrid sequences.  
-- 🧬 **Evolutionary Optimization** — Populations evolve to find strongest attack chains.  
+- 🧬 **Evolutionary Optimization** — Populations evolve to find strongest attack chains/sequences.  
 - 🧠 **Robustness Evaluation** — Measures generator collapse, discriminator confusion, and FID/IS metrics.  
 - 🧩 **Modular Design** — Easy to plug in new GANs, attacks, or fitness metrics.  
 
 ---
 
-## 🏗️ System Architecture
-
-+------------------------------+
-| Evolutionary |
-| Algorithm |
-| (Mutation + Selection) |
-+---------------+--------------+
-|
-v
-+------------------------------+
-| Adversarial Attack |
-| FGSM / PGD / JSMA / Combo |
-+---------------+--------------+
-|
-v
-+------------------------------+
-| DCGAN |
-| (Generator ⟷ Discriminator) |
-+---------------+--------------+
-|
-v
-+------------------------------+
-| Fitness Evaluation |
-| (Image Quality, Loss, etc.) |
-+------------------------------+
 
