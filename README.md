@@ -30,3 +30,27 @@ We use an **evolutionary optimization loop** to:
 
 ## 🏗️ System Architecture
 
++------------------------------+
+| Evolutionary |
+| Algorithm |
+| (Mutation + Selection) |
++---------------+--------------+
+|
+v
++------------------------------+
+| Adversarial Attack |
+| FGSM / PGD / JSMA / Combo |
++---------------+--------------+
+|
+v
++------------------------------+
+| DCGAN |
+| (Generator ⟷ Discriminator) |
++---------------+--------------+
+|
+v
++------------------------------+
+| Fitness Evaluation |
+| (Image Quality, Loss, etc.) |
++------------------------------+
+
