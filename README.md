@@ -5,7 +5,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Research--in--Progress-yellow)
+
 
 ---
 
